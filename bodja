@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мої картини - Лісецький Богдан Мирославович</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .bio, .contact {
+            margin: 40px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #f4f4f4;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Вітаю на моєму сайті картин!</h1>
+    </header>
+
+    <nav>
+        <a href="#gallery">Галерея</a>
+        <a href="#about">Про мене</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+
+    <div class="container">
+        <section id="gallery" class="gallery">
+            <h2>Галерея</h2>
+            <!-- Тут будуть ваші картини -->
+            <img src="path_to_your_painting1.jpg" alt="Картина 1">
+            <img src="path_to_your_painting2.jpg" alt="Картина 2">
+            <img src="path_to_your_painting3.jpg" alt="Картина 3">
+            <!-- Додайте більше зображень за потреби -->
+        </section>
+
+        <section id="about" class="bio">
+            <h2>Про мене</h2>
+            <p>Я художник Лісецький Богдан Мирославович, захоплююсь створенням унікальних картин. Моя творчість відображає мої емоції та світогляд. Тут ви знайдете добірку моїх найкращих робіт.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Контакти</h2>
+            <p>Ви можете зв’язатися зі мною через цю форму:</p>
+            <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+                <label for="name">Ваше ім'я:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Ваш email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <input type="submit" value="Відправити">
+            </form>
+            <p>Мій TikTok: <a href="https://www.tiktok.com/@Лісецький Богдан Мирославович" target="_blank">Лісецький Богдан Мирославович</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Лісецький Богдан Мирославович. Всі права захищено.</p>
+    </footer>
+</body>
+</html>
