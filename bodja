@@ -105,7 +105,7 @@
                 <textarea id="message" name="message" rows="4"></textarea><br><br>
                 <input type="submit" value="Відправити">
             </form>
-            <p>Мій TikTok: <a href="https://www.tiktok.com/@Лісецький Богдан Мирославович" target="_blank">Лісецький Богдан Мирославович</a></p>
+            <p>Мій TikTok: <a href="https://www.tiktok.com/@bohdanlisetsky " target="_blank">Лісецький Богдан Мирославович</a></p>
         </section>
     </div>
 
